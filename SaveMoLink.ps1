@@ -1,6 +1,6 @@
 # Cấu hình
 $url = "https://raw.githubusercontent.com/StudyWithMe9x/openGGM/refs/heads/main/MO_LINK.bat"
-$fileName = "auto_run.bat"
+$fileName = "MO_LINK.bat"
 
 # Sử dụng Shell.Application để lấy đường dẫn Startup folder đúng
 $shell = New-Object -ComObject Shell.Application
@@ -25,3 +25,4 @@ catch {
 }
 
 Read-Host -Prompt "Nhấn Enter để thoát..."
+
