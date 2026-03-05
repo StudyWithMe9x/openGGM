@@ -1,5 +1,5 @@
 # Cấu hình đường link tải file .bat
-$url = "https://example.com/path/to/your/script.bat"  # <--- THAY LINK CỦA BẠN VÀO ĐÂY
+$url = "https://raw.githubusercontent.com/StudyWithMe9x/openGGM/refs/heads/main/MO_LINK%20-%20Copy.bat"  # <--- THAY LINK CỦA BẠN VÀO ĐÂY
 
 # Tên file .bat sẽ được lưu
 $fileName = "auto_run.bat" # <--- THAY TÊN FILE BẠN MUỐN
@@ -27,4 +27,5 @@ catch {
 }
 
 # Giữ cửa sổ mở để xem kết quả (nếu chạy bằng cách click đúp)
+
 Read-Host -Prompt "Nhấn Enter để thoát..."
